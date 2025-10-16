@@ -8,3 +8,5 @@ For clients to connect, they need to enter the following command
   ncat \<hostname> \<port#>
 
   The hostname can be found with the hostname command, and the port number is provided by the server upon running
+
+Clients can type 'list' to see all connected users, 'send \<username>' to send a private user, 'broadcast' to send a message to all connected users, and 'random' to send a message to a random connected user
